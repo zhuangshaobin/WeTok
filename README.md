@@ -25,51 +25,58 @@ This project introduces **WeTok**, a powerful discrete visual tokenizer designed
 </p>
 
 ## 📰 News
-* **[2025.08.05]**:fire::fire::fire: We release WeTok tokenizers trained on a 400M general-domain dataset, achieving a record-low zero-shot rFID of **0.12** on ImageNet, surpassing top continuous tokenizers like FLUX-VAE and SD-VAE 3.5.
+* **[2025.08.05]**:fire::fire::fire: We release a series of WeTok models, achieving a record-low zero-shot rFID of **0.12** on ImageNet, surpassing top continuous tokenizers like FLUX-VAE and SD-VAE 3.5.
 * **[2025.08.05]** We are excited to release **WeTok**, a powerful discrete tokenizer featuring our novel **Grouped Lookup-Free Quantization (GFQ)** and a **generative decoder**. Code and pretrained models are now available!
 
 ## 📖 Implementations
 
 ### 🛠️ Installation
-- **Env**: We have tested on `Python 3.9+`, `PyTorch 2.0+` and `CUDA 11.8+` (other versions may also be fine).
-- **Dependencies**: `bash env.sh`
+- **Dependencies**: 
+```
+bash env.sh
+```
 
-### Datasets
+### Evaluation
 
-- **Image Dataset (e.g., ImageNet)**
+- **Evaluation on ImageNet 50K Validation Set**
 
-We use ImageNet-1K for in-distribution training and evaluation. The dataset should be organized as follows:
+The dataset should be organized as follows:
 ```
 imagenet
-└── train/
-    ├── n01440764
-        ├── n01440764_10026.JPEG
-        ├── ...
-    ├── n01443537
-    └── ...
 └── val/
     ├── ...
 ```
 
-- **General-Domain Dataset**
-
-For large-scale pre-training, we recommend organizing the data in the WebDataset `tar` format for efficient loading.
+Run the 256×256 resolution evaluation script:
 ```
-general_domain_data
-└── dataset_1/
-    ├── webdataset
-        ├── 00000.tar
-        ├── 00001.tar
-        └── ...
-└── dataset_2/
-    ├── webdataset
-        ├── 00000.tar
-        ├── 00001.tar
-        └── ...
+bash scripts/evaluation/imagenet_evaluation_256_dist.sh
 ```
 
-### ⚡ Training & Evaluation
-The detailed scripts for training and evaluation can be found in <a href="docs/WeTok.md">WeTok.md</a>.
+Run the original resolution evaluation script:
+```
+bash scripts/evaluation/imagenet_evaluation_original_dist.sh
+```
+
+- **Evaluation on MS-COCO Val2017**
+
+The dataset should be organized as follows:
+```
+MSCOCO2017
+└── val2017/
+    ├── ...
+```
+
+Run the evaluation script:
+```
+bash scripts/evaluation/mscocoval_evaluation_256_dist.sh
+```
+
+Run the original resolution evaluation script:
+```
+bash scripts/evaluation/mscoco_evaluation_original_dist.sh
+```
+
+
 
 ## ❤️ Acknowledgement
 Our work builds upon the foundations laid by many excellent projects in the field. We would like to thank the authors of [Open-MAGVIT2](https://arxiv.org/abs/2409.04410). We also drew inspiration from the methodologies presented in [LFQ](https://arxiv.org/abs/2310.05737), [BSQ](https://arxiv.org/abs/2406.07548). We are grateful for their contributions to the community.
