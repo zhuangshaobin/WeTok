@@ -1,5 +1,8 @@
 <div align="center">
 <h1>🚀 WeTok: Powerful Discrete Tokenization for High-Fidelity Visual Reconstruction</h1>
+[![arXiv](https://img.shields.io/badge/arXiv-2505.12489-b31b1b.svg)](https://arxiv.org/abs/2505.12489)
+[![Github](https://img.shields.io/badge/Github-WeTok-blue)](https://github.com/zhuangshaobin/WeTok.github)
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/GrayShine/WeTok)
 
 </div>
 
@@ -93,7 +96,7 @@ bash scripts/inference/reconstruct_image.sh
 <p align="center">
   <img src="./assets/gen.png" width="90%">
   <br>
-  <em>Qualitative comparison of 512 × 512 image reconstruction on TokBench.</em>
+  <em>WeTok-AR-XL generated samples at 256 × 256 resolution.</em>
 </p>
 
 
