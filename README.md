@@ -77,6 +77,26 @@ bash scripts/evaluation/mscoco_evaluation_original_dist.sh
 ```
 
 
+### Inference
+
+Simply test the effect of each model reconstruction:
+```
+bash scripts/inference/reconstruct_image.sh
+```
+
+<p align="center">
+  <img src="./assets/compare.png" width="90%">
+  <br>
+  <em>Qualitative comparison of 512 × 512 image reconstruction on TokBench.</em>
+</p>
+
+<p align="center">
+  <img src="./assets/gen.png" width="90%">
+  <br>
+  <em>Qualitative comparison of 512 × 512 image reconstruction on TokBench.</em>
+</p>
+
+
 
 ## ❤️ Acknowledgement
 Our work builds upon the foundations laid by many excellent projects in the field. We would like to thank the authors of [Open-MAGVIT2](https://arxiv.org/abs/2409.04410). We also drew inspiration from the methodologies presented in [LFQ](https://arxiv.org/abs/2310.05737), [BSQ](https://arxiv.org/abs/2406.07548). We are grateful for their contributions to the community.
