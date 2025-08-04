@@ -12,7 +12,6 @@ This project introduces **WeTok**, a powerful discrete visual tokenizer designed
 > <a href="https://github.com/zhuangshaobin/WeTok">WeTok: Powerful Discrete Tokenization for High-Fidelity Visual Reconstruction</a><br>
 > [Shaobin Zhuang](https://scholar.google.com/citations?user=PGaDirMAAAAJ&hl=zh-CN&oi=ao), [Yiwei Guo](https://scholar.google.com/citations?user=HCAyeJIAAAAJ&hl=zh-CN&oi=ao), [Canmiao Fu](), [Zhipeng Huang](), [Zeyue Tian](https://scholar.google.com/citations?user=dghq4MQAAAAJ&hl=zh-CN&oi=ao), [Ying Zhang](https://scholar.google.com/citations?user=R_psgxkAAAAJ&hl=zh-CN&oi=ao), [Chen Li](https://scholar.google.com/citations?hl=zh-CN&user=WDJL3gYAAAAJ), [Yali Wang](https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ)<br>
 > Shanghai Jiao Tong University, WeChat Vision (Tencent Inc.), Shenzhen Institutes of Advanced Technology (Chinese Academy of Sciences), Hong Kong University of Science and Technology, Shanghai AI Laboratory<br>
-> <a href="./docs/WeTok.md">📚WeTok.md</a>
 > ```
 > @article{zhuang2026wetok,
 >   title={WeTok: Powerful Discrete Tokenization for High-Fidelity Visual Reconstruction},
