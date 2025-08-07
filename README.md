@@ -29,7 +29,7 @@ This project introduces **WeTok**, a powerful discrete visual tokenizer designed
 
 ## 📰 News
 * **[2025.08.05]**:fire::fire::fire: We release a series of WeTok models, achieving a record-low zero-shot rFID of **0.12** on ImageNet, surpassing top continuous tokenizers like FLUX-VAE and SD-VAE 3.5.
-* **[2025.08.05]** We are excited to release **WeTok**, a powerful discrete tokenizer featuring our novel **Grouped Lookup-Free Quantization (GFQ)** and a **generative decoder**. Code and pretrained models are now available!
+* **[2025.08.05]** We are excited to release **WeTok**, a powerful discrete tokenizer featuring our novel **Group-Wise Lookup-Free Quantization (GQ)** and a **Generative Decoder (GD)**. Code and pretrained models are now available!
 
 ## 📖 Implementations
 
