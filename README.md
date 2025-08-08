@@ -1,7 +1,7 @@
 <div align="center">
 <h1>🚀 WeTok: Powerful Discrete Tokenization for High-Fidelity Visual Reconstruction</h1>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2505.12489-b31b1b.svg)](https://arxiv.org/abs/2505.12489)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.05599-b31b1b.svg)](https://arxiv.org/abs/2508.05599)
 [![Github](https://img.shields.io/badge/Github-WeTok-blue)](https://github.com/zhuangshaobin/WeTok)
 [![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/GrayShine/WeTok)
 
@@ -16,7 +16,7 @@ This project introduces **WeTok**, a powerful discrete visual tokenizer designed
 > @article{zhuang2026wetok,
 >   title={WeTok: Powerful Discrete Tokenization for High-Fidelity Visual Reconstruction},
 >   author={Zhuang, Shaobin and Guo, Yiwei and Fu, Canmiao and Huang, Zhipeng and Tian, Zeyue and Zhang, Ying and Li, Chen and Wang, Yali},
->   journal={arXiv preprint arXiv:2409.04410},
+>   journal={arXiv preprint arXiv:2508.05599},
 >   year={2025}
 > }
 > ```
