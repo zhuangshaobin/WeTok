@@ -28,6 +28,7 @@ This project introduces **WeTok**, a powerful discrete visual tokenizer designed
 </p>
 
 ## 📰 News
+* **[2025.08.31]**:🚀 🚀 🚀 We have released a series of LlamaGen models that use WeTok as a tokenizer, achieving a FID of **2.31** on ImageNet, surpassing LlamaGen with Open-MAGVIT2 as visual tokenizer.
 * **[2025.08.12]**:fire::fire::fire: We release a series of WeTok models, achieving a record-low zero-shot rFID of **0.12** on ImageNet, surpassing top continuous tokenizers like FLUX-VAE and SD-VAE 3.5.
 * **[2025.08.08]** 🚀 🚀 🚀 We are excited to release **WeTok**, a powerful discrete tokenizer featuring our novel **Group-Wise Lookup-Free Quantization (GQ)** and a **Generative Decoder (GD)**. Code and pretrained models are now available!
 
